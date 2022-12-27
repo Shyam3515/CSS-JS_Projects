@@ -1,0 +1,27 @@
+body{
+    padding:30px;
+    background: blueviolet;
+}
+.challenge-container{
+    border:2px solid white;
+    border-radius: 10px;
+    padding-top:10px;
+    max-width:720px;
+    text-align: center;
+    margin:10px auto;
+    background-color: aquamarine;
+}
+.button-container,.cat-container{
+    border:1px solid white;
+    display:flex;
+    justify-content: space-around;
+    padding:15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cat-container img{
+    height:200px;
+    box-shadow: 1px 3px 20px 10px white;
+    border-radius:10px;
+    margin:12px 4px;
+}
